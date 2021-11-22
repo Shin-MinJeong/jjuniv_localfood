@@ -4,6 +4,11 @@
 <meta charset="utf-8">
     <title>JB-Local</title>
     <link href="css/main.css" rel="stylesheet" type="text/css"/>
+    <style>
+        button{
+            width: 13px ;
+        }
+    </style>
 </head>
 <body>
     <div class="main-box"> 
@@ -19,15 +24,16 @@
 	</div>
         
     <div class="container">
-        <button class="market" type="button" 
+        <button class="market" type="button"  style="float: left;"
             onclick="location.href= 'http://freshjb.com/' ">
-            온라인 마켓</button>
-        <button class="localfood" type="button"
-            onclick="location.href='offline.html'">
-            매장 찾기</button>
-        <button class="map" type="button"
-            onclick="location.href='map.html'">
-            지역 특산물</button>
+            <img src="apple.png" /> </button>
+   
+        <button class="map" type="button" style="float: left;"
+        onclick="location.href='map.html'">
+           <img src="gal.png"> </button>
+        <button class="localfood" style="float: left;"
+        onclick="location.href='offline.html'">
+            <img src="pear.png"/></button>
     </div>
 
 </body>
