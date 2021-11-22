@@ -23,7 +23,7 @@ body {padding: 0px; margin: 0px; background-color: beige;
 
 .main-box { 
   height: 10%; width: 35%; overflow: hidden; 
-  margin: 0px auto; margin-top:8%; position: relative;
+  margin: 0px auto; margin-top:10%; position: relative;
 }
 
 video { width: 100%; }
@@ -52,7 +52,7 @@ video { width: 100%; }
 } */
 
 .container {
-    padding: 2em;
+    padding: 3em;
     font-family: 'ONE-Mobile-POP';
 }
 
