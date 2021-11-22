@@ -271,7 +271,7 @@ var positions = [
 ];
 
 // 마커 이미지의 이미지 주소입니다
-var imageSrc = "png/grape.png"; 
+var imageSrc = "grape.png"; 
     
 for (var i = 0; i < positions.length; i ++) {
     
