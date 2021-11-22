@@ -18,15 +18,15 @@ A:link { text-decoration: none; color:#005c36; }
 A:visited { text-decoration: none; color:#005c36; }
 A:hover { text-decoration: none; color: seagreen; }
 
-body {
-    padding: 0px; margin: 0px; background-color: beige;
-}
+body {padding: 0px; margin: 0px; background-color: beige;
+    font-family: 'Luckiest Guy';}
+
 .main-box { 
-    width: 50%; height: 50%; overflow: hidden; 
-    margin: 0px auto; margin-top:10%; position: relative;
-    
+  height: 10%; width: 35%; overflow: hidden; 
+  margin: 0px auto; margin-top:8%; position: relative;
 }
-video { width: 100%;  }
+
+video { width: 100%; }
 
 .main-text {
     width: 100%;
@@ -36,6 +36,7 @@ video { width: 100%;  }
     margin-bottom: 40px;
     /* margin-left: 630px; */
     text-align: left;
+    margin-left: 50px;
     font-family: 'Luckiest Guy';
     font-size: 53px;
     color: #005c36;
@@ -65,56 +66,36 @@ transition: all 0.3s;
 }
 
 button {
-background: none;
-border: 3px solid black;
-border-radius: 5px;
-color: black;
-font-size: 1.6em;
-font-weight: bold;
-position: relative;
-text-transform: uppercase;
-margin-left: 17.5%;
-margin-bottom: 3%;
-}
-
-button::before,
-button::after {
-background: #67b896;
-content: '';
-position: absolute;
-z-index: -1;
-}
-
-button:hover {
-color: black ;
-}
-
-.localfood::after {
-height: 100%;
-left: 0;
-top: 0;
-width: 0;
-}
-.localfood:hover:after {
-width: 100%;
-}
-
-.market::after {
-height: 100%;
-left: 0;
-top: 0;
-width: 0;
-}
-.market:hover:after {
-width: 100%;
-}
-
-.map::after {
-height: 100%;
-left: 0;
-top: 0;
-width: 0;
-}
-.map:hover:after {
-width: 100%;
-}
+    background: none;
+    border: 3px solid beige;
+    border-radius: 5px;
+    color: beige; 
+    font-size: 1.6em; 
+    font-weight: bold;
+    position: relative;
+    text-transform: uppercase;
+    margin-bottom: 3%;
+        }
+    .market {
+        margin-left: 20%;
+    }
+    .map{
+        margin-left: 20%;
+    }
+    .localfood {
+        margin-left: 20%;
+    }
+  
+  /* .market:hover {
+      transform: rotate(-45deg);
+  }
+  .map:hover {
+      transform: scale(1.2);
+  }
+  .localfood:hover {
+      transform: rotateX(180deg);
+  } */
+  
+  Button:hover {
+      transform: scale(1.2);
+  }
