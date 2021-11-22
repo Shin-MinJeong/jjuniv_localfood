@@ -52,7 +52,7 @@ video { width: 100%; }
 } */
 
 .container {
-    padding: 3em;
+    padding: 2em;
     font-family: 'ONE-Mobile-POP';
 }
 
@@ -76,7 +76,7 @@ button {
     margin-bottom: 3%;
         }
     .market {
-        margin-left: 20%;
+        margin-left: 25%;
     }
     .map{
         margin-left: 20%;
