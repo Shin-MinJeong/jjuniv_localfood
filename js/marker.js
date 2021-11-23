@@ -303,12 +303,12 @@ var overlay = new kakao.maps.CustomOverlay({
 // 마커에 마우스오버 이벤트를 등록합니다
 kakao.maps.event.addListener(marker, 'mouseover', function() {
     // 마커에 마우스오버 이벤트가 발생하면 인포윈도우를 마커위에 표시합니다
-      overlay.setMap(map);
+      overlay[i].setMap(map);
   });
   
   // 마커에 마우스아웃 이벤트를 등록합니다
   kakao.maps.event.addListener(marker, 'mouseout', function() {
       // 마커에 마우스아웃 이벤트가 발생하면 인포윈도우를 제거합니다
-      overlay.setMap(null);
+      overlay[i].setMap(null);
   });
 }
