@@ -47,7 +47,7 @@ ul {
   color: white;
   padding: 1rem 2rem;
   cursor: pointer;
-  margin-left: 10%;
+  text-align: center;
 }
 
 .button_wrap .on {
