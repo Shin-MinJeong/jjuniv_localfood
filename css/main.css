@@ -1,0 +1,100 @@
+@font-face {
+    font-family: 'Luckiest Guy';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/titanone/v8/mFTzWbsGxbbS_J5cQcjClDgm.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+  @font-face {
+    font-family: 'ONE-Mobile-POP';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/ONE-Mobile-POP.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+A:link { text-decoration: none; color:#005c36; }
+A:visited { text-decoration: none; color:#005c36; }
+A:hover { text-decoration: none; color: seagreen; }
+
+body {padding: 0px; margin: 0px; background-color: beige;
+    font-family: 'Luckiest Guy';}
+
+.main-box { 
+  height: 10%; width: 35%; overflow: hidden; 
+  margin: 0px auto; margin-top:10%; position: relative;
+}
+
+video { width: 100%; }
+
+.main-text {
+    width: 100%;
+    position: absolute;
+    top: -5%;
+    margin-top: 35px;
+    margin-bottom: 45px;
+    /* margin-left: 630px; */
+    text-align: center;
+    font-family: 'Luckiest Guy';
+    font-size: 53px;
+    color: #005c36;
+}
+
+/* .main-text p {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 630px; 
+    text-align: center;
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 53px;
+    color: #005c36;
+} */
+
+.container {
+    padding: 2em;
+    font-family: 'ONE-Mobile-POP';
+}
+
+button,
+button::after {
+-webkit-transition: all 0.3s;
+-moz-transition: all 0.3s;
+-o-transition: all 0.3s;
+transition: all 0.3s;
+}
+
+button {
+    background: none;
+    border: 3px solid beige;
+    border-radius: 5px;
+    color: beige; 
+    font-size: 1.6em; 
+    font-weight: bold;
+    position: relative;
+    text-transform: uppercase;
+    margin-bottom: 3%;
+        }
+    .market {
+        margin-left: 23%;
+    }
+    .map{
+        margin-left: 20%;
+    }
+    .localfood {
+        margin-left: 20%;
+    }
+  
+  /* .market:hover {
+      transform: rotate(-45deg);
+  }
+  .map:hover {
+      transform: scale(1.2);
+  }
+  .localfood:hover {
+      transform: rotateX(180deg);
+  } */
+  
+  Button:hover {
+      transform: scale(1.2);
+  }
