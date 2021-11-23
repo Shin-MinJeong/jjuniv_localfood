@@ -317,7 +317,7 @@ for (var i = 0; i < positions.length; i ++) {
     kakao.maps.event.addListener(marker, 'mouseover', makeOverListener2(map,marker,overlay));
     kakao.maps.event.addListener(marker, 'mouseout', makeOutListener2(overlay));
 
-    kakao.maps.event.addListener(marker, 'mouseover', makeOverListener(map,marker,infowindow));
+    //kakao.maps.event.addListener(marker, 'mouseover', makeOverListener(map,marker,infowindow));
     kakao.maps.event.addListener(marker, 'mouseout', makeOutListener(infowindow));
 }
 
