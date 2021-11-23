@@ -314,18 +314,33 @@ for (var i = 0; i < positions.length; i ++) {
         overlay.setMap(map);
     });*/
 
-    kakao.maps.event.addListener(marker, 'mouseover', makeOverListener(map,marker,overlay));
-    kakao.maps.event.addListener(marker, 'mouseout', makeOutListener(overlay));
+    kakao.maps.event.addListener2(marker, 'mouseover', makeOverListener(map,marker,overlay));
+    kakao.maps.event.addListener2(marker, 'mouseout', makeOutListener(overlay));
+
+    kakao.maps.event.addListener(marker, 'mouseover', makeOverListener(map,marker,infowindow));
+    kakao.maps.event.addListener(marker, 'mouseout', makeOutListener(infowindow));
 }
 
-function makeOverListener(map, marker, overlay){
+function makeOverListener2(map, marker, overlay){
     return function(){
         overlay.setMap(map);
     };
 }
 
-function makeOutListener(infowindow){
+function makeOutListener2(overlay){
     return function(){
         overlay.setMap(null);
+    };
+}
+
+function makeOverListener(map, marker, infowindow){
+    return function(){
+        infowindow.open(map,marker);
+    };
+}
+
+function makeOutListener(infowindow){
+    return function(){
+        infowindow.close();
     };
 }
