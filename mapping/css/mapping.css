@@ -40,13 +40,14 @@ ul {
 }
 
 .button_wrap button {
-  margin-top: 2%;
+  margin-top: 4%;
   outline: none;
   border: none;
   background-color: lightgray;
   color: white;
   padding: 1rem 2rem;
   cursor: pointer;
+  margin-left: 10%;
 }
 
 .button_wrap .on {
